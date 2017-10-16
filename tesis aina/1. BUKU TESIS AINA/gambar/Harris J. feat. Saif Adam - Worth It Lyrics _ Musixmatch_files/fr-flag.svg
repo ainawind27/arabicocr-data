@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Flags / fr-flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="3" width="24" height="18" rx="2"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="24" height="18" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-/-fr-flag">
+            <path d="M8,3 L8,21 L2.00494659,21 C0.897645164,21 0,20.1073772 0,19.0049107 L0,4.99508929 C0,3.8932319 0.897026226,3 2.00494659,3 L8,3 Z" id="Rectangle-77" fill="#284C9E"></path>
+            <path d="M7.99987507,3 L15.9998751,3 L15.9998751,21 L7.99987507,21 L7.99987507,3 Z" id="Rectangle-77-Copy" fill="#FFFFFF"></path>
+            <path d="M18.9974018,3 L15.9997501,3 L15.9997501,21 L18.9974018,21 L21.9950534,21 C23.0922849,21 23.982672,20.1239202 23.9997501,19.0367429 L23.9997501,4.96325071 C23.9826661,3.87548827 23.0916756,3 21.9950534,3 L18.9974018,3 Z" id="Rectangle-77-Copy-2" fill="#ED2224"></path>
+            <use id="Path" stroke-opacity="0.05" stroke="#000000" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

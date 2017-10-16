@@ -1,0 +1,308 @@
+var compte="196365884524";
+base_url="";
+base_gmt="";
+var platform="windows";
+var name_browser="chrome";
+var version="58";
+
+//var geonb;
+//if(isNaN(geonb)){geonb=1;}
+geonb=new Array();
+geonb[compte]=1;
+
+
+function getCookieVal (offset) {
+var endstr = document.cookie.indexOf (";", offset);
+if (endstr == -1)
+endstr = document.cookie.length;
+return unescape(document.cookie.substring(offset, endstr));
+}
+
+function GetCookie (name) {
+var arg = name + "=";
+var alen = arg.length;
+var clen = document.cookie.length;
+var i = 0;
+while (i < clen) {
+var j = i + alen;
+if (document.cookie.substring(i, j) == arg)
+return getCookieVal (j);
+i = document.cookie.indexOf(" ", i) + 1;
+if (i == 0) break;
+}
+return null;
+}
+
+function EcrireCookieGeo(nom,valeur,nombre)
+{
+   var argv=EcrireCookieGeo.arguments;
+   var argc=EcrireCookieGeo.arguments.length;
+   if(nombre==-1){
+   var ladate=nombre;
+   valeur="";
+   }
+   else{
+   var ladate=new Date();
+   ladate.setTime(ladate.getTime()+Number(nombre)*1000);
+   }
+   var expires=(argc > 2) ? argv[2] : null;
+   var expires=nombre;
+   var path=("/") ;
+   var domain=(argc > 4) ? argv[4] : null;
+   var secure=(argc > 5) ? arg[5] : false;
+   document.cookie=nom+"="+escape(valeur)+
+   "; expires="+ladate.toUTCString()+
+   ((path==null) ? "" : ("; path="+path))+
+   ((domain==null) ? "" : ("; domain="+domain))+
+   ((secure==true) ? "; secure" : "");
+} 
+
+
+var nb_couleur;
+if(screen.colorDepth!=undefined){
+ nb_couleur=screen.colorDepth;
+}
+else if(screen.pixelDepth!=undefined){
+ nb_couleur=screen.pixelDepth;
+}
+else{
+ nb_couleur=0;
+}
+
+var browser = parseInt(navigator.appVersion);
+if (browser>=4){var resolution = (screen.height + "*" + screen.width)}
+else{var resolution;}
+
+if (navigator.appName.indexOf("Microsoft Internet Explorer")!=-1){langue=navigator.systemLanguage;}
+else{langue=navigator.language;}
+if(langue==undefined){langue="id";}
+langue=langue.substring(0,2);
+
+var date_geoloc = new Date();
+dateloc = date_geoloc.getTime()/1000
+var reg
+var ref= document.referrer
+page_stat = escape(document.URL)
+if (ref==""){
+ref="NULL"
+        if(compte=="166822geovis"){
+        ref='';
+        page_stat = escape(document.URL)+'?compte=';
+        }
+}
+
+
+var url = document.URL
+ if(url.indexOf("/")== -1){
+   reg2 = "index"
+   }
+
+   else{
+   tab=url.split("/")
+   var i =tab.length-1
+   var page = tab[i]
+    if((page == "index.htm")  || (page =="index.html") || (page == "index.php") || (page == "")|| (page == "index.php3")|| (page == "index.asp")){
+    reg2 = "index"
+    }
+    else{
+     var reg2
+    }
+    }
+var couleur_lib;
+var logo_lib;
+var compteur_lib;
+var categorie_lib;
+var undefined;
+var defautgif;
+
+
+var md5="";
+var date_test
+date_test=1496843780;
+dateloc+=10;
+var outils2geocounter2='';
+var bool_refresh="false";
+var tab_urlp=new Array();
+if(geonb[compte]==1){
+//tab_urlp['geocounter']
+p_geocounter2='https://geoloc14.whoaremyfriends.net:4433/private/geoloc/pointeur.gif?|'+escape('196365884524')+'|'+escape(base_url)+'|'+escape(resolution)+'|'+escape(platform)+'|'+escape(langue)+'|'+escape(nb_couleur)+'|'+Math.round(dateloc)+'|||'+escape(name_browser)+'|'+escape(version)+'||ID|-6.903900|107.618599|Bandung|Three+Indonesia|1496843780|geocounter|25200|';
+var datep=1496843780;
+document.write('<img src = "'+p_geocounter2+datep+'|||'+page_stat+'|'+escape(ref)+'" border="0"  width="1" height="1" alt="geocounter2" name="pointeur_geocounter2">');
+}
+//geonb++;
+geonb[compte]++;
+//if(bool_refresh==true){setInterval("refreshp()",60000);}
+var refreshpiiiii = function (v){
+datep+=6;
+document.images["pointeur_geochat"].src=tab_urlp['geochat']+datep+outils2+'|'+v;
+alert(tab_urlp['geochat']+datep+outils2+'|'+v);
+}
+
+function detectFlash2(){
+ return(false);
+
+ if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) //si IE
+   {
+    var activeX = null ;
+    try{
+         activeX = new ActiveXObject('ShockwaveFlash.ShockwaveFlash') ;
+    }catch(e){
+         //alert('echec activeX')
+    }
+    if( activeX == null ){
+         return(false);
+    }else{
+         return(true) ;
+    }
+   }
+   else //autre navigateur
+   {
+    if( navigator.plugins["Shockwave Flash"] ){
+         return(true) ;
+    }else{
+         return(false) ;
+    }
+   }
+}
+
+if(detectFlash2()==true)
+{
+document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="150" height="170" id="geocountermovie">');
+document.write('<param name="movie"  value="https://geoloc14.whoaremyfriends.net:4433/skin/geocounter/geoloc14_1.swf?compte=196365884524&lg=en&bro=chrome&bro_nom=chrome&os=win&os_nom=windows&ip=ip&ip_nom=180.214.232.82&geo_ISO=ID&geo_PAYS=Indonesia&geo_LAT=-6.903900&geo_LON=107.618599&isp=isp&isp_nom=Three+Indonesia&geo_CITY=Bandung&fc=000000&p=_total&tp=Click for detail&md5='+md5+'&skin=1&bgskin=&anim=1&f=Verdana&s=10&ca=990000&ci=&onl=OnLine&ofl=&ttot=Total&cbg=FFFFFF&cbg2=&cbg3=&cbg4=&b=1&dn=0&dec=2278&tau=20900&base=geoloc14&tty=&cat=Sciences&scat=Data+processing&fuseau=Jakarta;ID;25200&date_website=17-06-07-20-56-20&init=&unit=&icon=&temp=&hmid=&wiso=&wcity=&domaine_img=whoaremyfriends.net&domaine_txt=whoaremyfriends.net&sheme=https&port_txt=:4433&port_img=:4433&referer='+escape(document.URL)+'&dateloc='+dateloc+'">');
+document.write('<param name="quality" value="high">');
+
+if (document.all && !document.getElementsByClassName) {
+//document.write('<param name="wmode" value="transparent">');
+}
+//document.write('<!--[if lte IE 8 ]><param name="wmode" value="transparent"> <![endif]-->');
+
+var iversion = navigator.appVersion.indexOf("MSIE")
+if(Number(navigator.appVersion.substring(iversion+5, iversion+8))<=8){
+document.write('<param name="wmode" value="transparent">');
+}
+
+document.write('<embed src="https://geoloc14.whoaremyfriends.net:4433/skin/geocounter/geoloc14_1.swf?compte=196365884524&lg=en&bro=chrome&bro_nom=chrome&os=win&os_nom=windows&ip=ip&ip_nom=180.214.232.82&geo_ISO=ID&geo_PAYS=Indonesia&geo_LAT=-6.903900&geo_LON=107.618599&isp=isp&isp_nom=Three+Indonesia&geo_CITY=Bandung&fc=000000&p=_total&tp=Click for detail&md5='+md5+'&skin=1&bgskin=&anim=1&f=Verdana&s=10&ca=990000&ci=&onl=OnLine&ofl=&ttot=Total&cbg=FFFFFF&cbg2=&cbg3=&cbg4=&b=1&dn=0&dec=2278&tau=20900&base=geoloc14&tty=&cat=Sciences&scat=Data+processing&fuseau=Jakarta;ID;25200&date_website=17-06-07-20-56-20&init=&unit=&icon=&temp=&hmid=&wiso=&wcity=&domaine_img=whoaremyfriends.net&domaine_txt=whoaremyfriends.net&sheme=https&port_txt=:4433&port_img=:4433&referer='+escape(document.URL)+'&dateloc='+dateloc+'" quality="high" pluginspage="https://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="150" height="170" wmode="transparent"  name="geocountermovie"></embed>');
+document.write('</object>');
+}
+else
+{
+ //document.write('<a href="https://www.geovisite.com/zoom.php?compte=196365884524" target="_blank"><img src="https://geoloc14.whoaremyfriends.net/private/geocounter.php?compte=196365884524" border=0></a>');
+ document.write('<iframe src="https://geoloc14.whoaremyfriends.net/private/geocounter_iframe_css_64.php?compte=196365884524&anim=1&b=1&ca=990000&cbg=FFFFFF&dn=0&f=Verdana&fc=000000&onl=OnLine&p=_total&s=10&skin=1&tp=Click for detail&ts=150x170&ttot=Total" width="150" height="170" bormeBorder="0" scrolling="no" allowTransparency="true" marginheight="0" marginwidth="0" style="border-width: 0px;margin:0px;padding:0px;"></iframe>');
+
+}
+
+
+
+
+geovisite_test_cookie_value = GetCookie('acceptcookie');
+if(geovisite_test_cookie_value == null && geovisite_test_cookie_value != "okg"){
+EcrireCookieGeo('acceptcookie','ok',604800);
+}
+
+var uri84='http://164.132.171.89/promo.php?compte=196365884524&path=012226&lg=en&pays=ID&lg_nav='+langue+'&platform=windows&browser=chrome&version=58';
+
+//var uri84='http://37.187.248.215/promo.php?compte=196365884524&path=012226&lg=en&pays=ID&lg_nav='+langue+'&platform=windows&browser=chrome&version=58';
+//var uri84='http://5.39.67.191/promo.php?compte=196365884524&path=012226&lg=en&pays=ID&lg_nav='+langue+'&platform=windows&browser=chrome&version=58';
+//var uri84='http://94.23.210.144/promo/promo.php?compte=196365884524&path=012226&lg=en&pays=ID&lg_nav='+langue+'&platform=windows&browser=chrome&version=58';
+
+
+function geoclick(){
+geovisite_test_cookie_value = GetCookie('acceptcookie');
+if((geovisite_test_cookie_value == "ok" || geovisite_test_cookie_value == null) && geovisite_test_cookie_value != "ok." && geovisite_test_cookie_value != "okg" && geovisite_test_cookie_value != "okz"){
+        geovisite_test_cookie="012226;196365884524;en;";
+        lawidth=screen.width;
+        laheight=screen.height;
+if(navigator.userAgent.indexOf('Firefox') == -1){
+wini=window.open(uri84,'promo','toolbar=1,location=0,directories=1,status=0,menubar=0,scrollbars=1,resizable=1,fullscreen=0,width='+lawidth+',height='+laheight+',top=0,left=100');
+if(wini)wini.blur();
+window.focus();
+}
+else{
+bSimple=false;
+ randn='pu_' + Math.floor(89999999*Math.random()+10000000);
+
+ var _parent = self,sToolbar,sOptions,popunder84;
+ sToolbar='no';
+//sToolbar = (navigator.userAgent.indexOf('webkit')==-1 && (navigator.userAgent.indexOf('mozilla')==-1 || parseInt(navigator.appversion, 10) < 12)) ? 'yes' : 'no';
+ if (top != self) {
+  try {
+   if (top.document.location.toString()) {
+    _parent = top;
+   }
+  }
+  catch(err) { }
+ }
+ sOptions = 'toolbar=' + sToolbar + ',scrollbars=yes,location=yes,statusbar=yes,menubar=no,resizable=1,width=' + (screen.availWidth - 10).toString();
+ sOptions += ',height=' + (screen.availHeight - 122).toString() + ',screenX=0,screenY=0,left=0,top=0';
+ popunder84 = _parent.window.open(uri84, randn, sOptions);
+ if (popunder84) {
+    popunder84.blur();
+    if (bSimple) {
+    window.focus();
+    try { opener.window.focus(); }
+    catch (err) { }
+    }
+    else {
+    popunder84.init = function(e) {
+    with (e) {
+     (function() {
+     if (typeof window.mozPaintCount != 'undefined') {
+     var x = window.open('about:blank');
+     x.close();
+     }
+     try { opener.window.focus(); }
+     catch (err) { }
+     })();
+     }
+     };
+     popunder84.params = {
+       url: uri84
+     };
+     popunder84.init(popunder84);
+     }
+  }
+}
+EcrireCookieGeo('acceptcookie','ok.',604800);
+ }
+}
+
+
+function popup84()
+{
+ items=new Array();
+ if(top.location != self.document.location){
+ items = document.getElementsByTagName('a');
+ parent.document.onclick=geoclick;
+ }
+ else{
+ items = document.getElementsByTagName('a');
+ if (window.addEventListener)document.body.addEventListener('click',geoclick,false)
+ if (window.attachEvent)document.body.attachEvent("onclick", geoclick)
+ }
+ for(var i=0; i<items.length; i++){
+ if (items[i].onclick == undefined) items[i].onclick = geoclick;
+ }
+}
+if (window.addEventListener)window.addEventListener("load", popup84, false)
+if (window.attachEvent)window.attachEvent("onload", popup84)
+document.onclick=geoclick;
+
+
+if (window.navigator.appVersion.match(/Chrome/)) {
+    function chrome_flash_redraw() {
+        var objects = document.getElementsByTagName('object');
+
+        for (var i = 0, j = objects.length; i < j; i++) {
+	    objects[i].style.display = 'inline-block';
+            objects[i].style.marginLeft = 'auto';
+            objects[i].style.marginRight = 'auto';
+        }
+    }
+
+    if (window.addEventListener) {
+        window.addEventListener('load', chrome_flash_redraw, false);
+    } else if (window.attachEvent) {
+        window.attachEvent('onload', chrome_flash_redraw);
+    }
+}
+

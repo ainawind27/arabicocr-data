@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Web Page Blocked</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<meta name="viewport" content="initial-scale=1.0">
+<style>
+  #content {
+    border:3px solid#aaa;
+    background-color:#fff;
+    margin:1.2em;
+    padding:1.2em;
+    font-family:Tahoma,Helvetica,Arial,sans-serif;
+    font-size:1em;
+  }
+  h1 {
+    font-size:1.2em;
+    font-weight:bold;
+    color:#196390;
+  }
+  b {
+    font-weight:normal;
+    color:#196390;
+  }
+        form td, form input {
+                font-size: 1em;
+                font-weight: bold;
+        }
+        #formtable {
+                height: 100%;
+                width: 100%;
+        }
+        #formtd {
+                vertical-align: middle;
+        }
+        #formdiv {
+                margin-left: auto;
+                margin-right: auto;
+        }
+</style>
+<script type="text/javascript">
+function pwdCheck() {
+    if(document.getElementById("pwd")) {
+        document.getElementById("continueText").innerHTML = "If you require access to this page, have an administrator enter the override password here:";
+    }   
+}
+</script>
+</head>
+<body bgcolor="#e7e8e9">
+<div id="content">
+<h1>Web Page Blocked</h1>
+<p>Access to the web page you were trying to visit has been blocked in accordance with company policy. Please contact your system administrator if you believe this is in error.</p>
+<p><b>User:</b> 10.5.143.183 </p>
+<p><b>URL:</b> http://pagead2.googlesyndication.com/pagead/js/google_top_exp.js </p>
+<p><b>Category:</b> web-advertisements </p>
+
+<hr>
+<p id="continueText">If you feel this page has been incorrectly blocked, you may click Continue to proceed to the page. However, this action will be logged.</p>
+<div id="formdiv">
+    
+<form name="login" method="POST" action="/php/urlblock.php?vsys=4&cat=10052&title=web-advertisements&rulename=HOTSPOT_ALLOW&sip=10.5.143.183&url=http://pagead2.googlesyndication.com%2fpagead%2fjs%2fgoogle_top_exp.js">
+<input type="submit" name="ok" value="Continue">
+</form>
+
+<style>
+#dError {
+    background-color: #FFFF88;
+    color: #E10000;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #999999;
+    font-weight: bold;
+    overflow: auto;
+}
+</style>
+
+</div>
+<a href="#" onclick="history.back();return false;">Return to previous page</a>
+</div>
+</body>
+</html>

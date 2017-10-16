@@ -1,0 +1,35 @@
+<hmm xmlns="urn:publicid:IDN+milowski.com:schemas:math:hmm:2004:us" name="Josephine's model - Two State/Binary - No Initial/Final" error="0.0005">
+
+<description>
+<body xmlns="http://www.w3.org/1999/xhtml">
+<p>This is Josephine's example with the initial and final states set to 1.</p>
+</body>
+</description>
+
+<alphabet lexicon="01"/>
+
+<start at="s0" probability="1"/>
+<start at="s1" probability="1"/>
+
+<state id="s0">
+<transition to="s0" probability="0.75"/>
+<transition to="s1" probability="0.25"/>
+<emissions>
+<symbol char="0" probability="0.7058823529411765"/>
+<symbol char="1" probability="0.2941176470588235"/>
+</emissions>
+</state>
+
+<state id="s1">
+<transition to="s0" probability="0.25"/>
+<transition to="s1" probability="0.75"/>
+<emissions>
+<symbol char="0" probability="0.2941176470588235"/>
+<symbol char="1" probability="0.7058823529411765"/>
+</emissions>
+</state>
+
+<final at="s0" probability="1"/>
+<final at="s1" probability="1"/>
+
+</hmm>

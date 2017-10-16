@@ -1,0 +1,46 @@
+<hmm xmlns="urn:publicid:IDN+milowski.com:schemas:math:hmm:2004:us" name="Pair CpG Island Model" error="0.0005">
+
+<description>
+<body xmlns="http://www.w3.org/1999/xhtml">
+<p>This is a complex model that tries to model CG pairs.</p>
+</body>
+</description>
+
+<alphabet lexicon="ACGT"/>
+
+<start at="non-island" probability="1.0"/>
+
+<state id="non-island">
+<transition to="non-island" probability="0.95"/>
+<transition to="island-cg" probability="0.05"/>
+<emissions>
+<symbol char="A" probability="0.25"/>
+<symbol char="C" probability="0.25"/>
+<symbol char="G" probability="0.25"/>
+<symbol char="T" probability="0.25"/>
+</emissions>
+</state>
+
+<state id="island-cg">
+<transition to="island-cg" probability="0.5"/>
+<transition to="island-at" probability="0.4"/>
+<transition to="non-island" probability="0.1"/>
+<emissions>
+<symbol char="C" probability="0.5"/>
+<symbol char="G" probability="0.5"/>
+</emissions>
+</state>
+
+<state id="island-at">
+<transition to="island-cg" probability="0.7"/>
+<transition to="island-at" probability="0.2"/>
+<transition to="non-island" probability="0.1"/>
+<emissions>
+<symbol char="A" probability="0.5"/>
+<symbol char="T" probability="0.5"/>
+</emissions>
+</state>
+
+<final at="non-island" probability="1"/>
+
+</hmm>

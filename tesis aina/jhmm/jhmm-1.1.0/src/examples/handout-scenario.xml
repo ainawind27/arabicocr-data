@@ -1,0 +1,26 @@
+<training-scenarios>
+<training-scenario name="one" error="0.005">
+<observation-data>
+000,69
+011,43
+110,62
+111,76
+010,67
+100,56
+101,68
+001,59
+</observation-data>
+</training-scenario>
+<training-scenario name="two">
+<observation-data>
+011,52
+010,61
+000,78
+101,56
+001,60
+111,74
+110,66
+100,53
+</observation-data>
+</training-scenario>
+</training-scenarios>

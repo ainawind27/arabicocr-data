@@ -1,0 +1,110 @@
+.playerBox_ytvb div.alldone_ytvb {
+  color: #00c;
+}
+.playerBox_ytvb a.title_ytvb {
+  color: #00c;
+}
+.playerBox_ytvb div.alldone_ytvb:hover {
+  color: #00c;
+}
+.playerBox_ytvb a.title_ytvb:hover {
+  color: #00c;
+}
+.resultsBox_ytvb div.resultDiv_ytvb {
+  border-color: #676767;
+}
+.floatingPlayerBox_ytvb, .floatingPlayerBox_ytvb * {
+  background-color: #fff;
+}
+.floatingPlayerBox_ytvb {
+  border: 1px solid #f0f0f0;
+}
+.floatingPlayer_ytvb {
+  background-color: #fff;
+}
+.playerBox_ytvb {
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+.floatingPlayerBox_ytvb {
+  -moz-opacity: .9;
+  filter: alpha(opacity=90);
+  opacity: .9;
+  position: absolute;
+  z-index: 9998;
+}
+.floatingPlayer_ytvb {
+  position: absolute;
+  z-index: 9999;
+}
+.idle_ytvb {
+  display: none;
+}
+.playing_ytvb {
+  display: block;
+}
+.playerInnerBox_ytvb {
+  margin-top: 2px;
+}
+.playerInnerBox_ytvb .player_ytvb {
+  height: 195px;
+  width: 260px;
+}
+.playerInnerBox_ytvb div.player_ytvb {
+  margin: auto;
+}
+.floatingPlayer_ytvb .playerInnerBox_ytvb div.player_ytvb {
+  margin: 0;
+}
+.playerBox_ytvb div.alldone_ytvb {
+  cursor: pointer;
+  display: inline;
+  font-size: 11px;
+}
+.playerBox_ytvb div.alldone_ytvb:hover {
+  text-decoration: underline;
+}
+.playerBox_ytvb div.title_ytvb {
+  font-size: 11px;
+  margin-top: 2px;
+  text-align: center;
+}
+.playerBox_ytvb a.title_ytvb {
+  text-decoration: none;
+}
+.playerBox_ytvb a.title_ytvb:hover {
+  text-decoration: underline;
+}
+.full_ytvb {
+  display: block;
+}
+.empty_ytvb {
+  display: none;
+}
+table.resultTable_ytvb {
+  border-collapse: collapse;
+}
+table.resultTable_ytvb td {
+  border: none;
+}
+div.resultDiv_ytvb {
+  background-color: #000;
+  border-width: 1px;
+  border-style: solid;
+  height: 79px;
+  text-align: center;
+  width: 104px;
+}
+div.smallResultDiv_ytvb {
+  height: 41px;
+  width: 54px;
+  text-align: center;
+}
+div.resultDiv_ytvb img {
+  cursor: pointer;
+  display: inline;
+}
