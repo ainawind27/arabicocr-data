@@ -1,0 +1,43 @@
+<hmm xmlns="urn:publicid:IDN+milowski.com:schemas:math:hmm:2004:us" name="Loaded Dice Model" error="0.0005">
+
+<description>
+<body xmlns="http://www.w3.org/1999/xhtml">
+<p>This is the two dice game example from the Biological Sequence Analysis book by Durbin et. al.  Essentially, it models switch between fair and loaded six-sided dice (i.e. the "occasionally dishonest casino" example).</p>
+</body>
+</description>
+
+<alphabet lexicon="123456"/>
+
+<start at="fair" probability="1.0"/>
+<start at="loaded" probability="0"/>
+
+<state id="fair">
+<transition to="fair" probability="0.95"/>
+<transition to="loaded" probability="0.05"/>
+<emissions>
+<symbol char="1" probability="0.1666"/>
+<symbol char="2" probability="0.1666"/>
+<symbol char="3" probability="0.1666"/>
+<symbol char="4" probability="0.1666"/>
+<symbol char="5" probability="0.1666"/>
+<symbol char="6" probability="0.1666"/>
+</emissions>
+</state>
+
+<state id="loaded">
+<transition to="loaded" probability="0.9"/>
+<transition to="fair" probability="0.1"/>
+<emissions>
+<symbol char="1" probability="0.1"/>
+<symbol char="2" probability="0.1"/>
+<symbol char="3" probability="0.1"/>
+<symbol char="4" probability="0.1"/>
+<symbol char="5" probability="0.1"/>
+<symbol char="6" probability="0.5"/>
+</emissions>
+</state>
+
+<final at="fair" probability="0.5"/>
+<final at="loaded" probability="0.5"/>
+
+</hmm>

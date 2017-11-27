@@ -1,0 +1,46 @@
+<hmm xmlns="urn:publicid:IDN+milowski.com:schemas:math:hmm:2004:us" name="Circular Model - Example 1" error="0.0005">
+
+<description>
+<body xmlns="http://www.w3.org/1999/xhtml">
+<p>This is an example of a three state chain in a circle with a binary alphabet where you can only go one way around the circle.</p>
+</body>
+</description>
+
+<alphabet lexicon="01"/>
+
+<start at="one" probability="0.333333"/>
+<start at="two" probability="0.333333"/>
+<start at="three" probability="0.333333"/>
+
+<state id="one">
+<transition to="one" probability="0.5"/>
+<transition to="two" probability="0.5"/>
+<emissions>
+<symbol char="0" probability="0.5"/>
+<symbol char="1" probability="0.5"/>
+</emissions>
+</state>
+
+<state id="two">
+<transition to="two" probability="0.9"/>
+<transition to="three" probability="0.1"/>
+<emissions>
+<symbol char="0" probability="0.9"/>
+<symbol char="1" probability="0.1"/>
+</emissions>
+</state>
+
+<state id="three">
+<transition to="three" probability="0.1"/>
+<transition to="one" probability="0.9"/>
+<emissions>
+<symbol char="0" probability="0.1"/>
+<symbol char="1" probability="0.9"/>
+</emissions>
+</state>
+
+<final at="one" probability="0.333333"/>
+<final at="two" probability="0.333333"/>
+<final at="three" probability="0.333333"/>
+
+</hmm>

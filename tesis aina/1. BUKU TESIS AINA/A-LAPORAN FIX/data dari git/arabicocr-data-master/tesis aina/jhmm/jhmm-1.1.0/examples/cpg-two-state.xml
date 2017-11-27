@@ -1,0 +1,39 @@
+<hmm xmlns="urn:publicid:IDN+milowski.com:schemas:math:hmm:2004:us" name="Two State CpG Island Model" error="0.0005">
+
+<description>
+<body xmlns="http://www.w3.org/1999/xhtml">
+<p>This is a simple two state CpG island model with two states where C's and G's are produced more often in the second case.</p>
+</body>
+</description>
+
+<alphabet lexicon="ACGT"/>
+
+<start at="non-island" probability="1.0"/>
+<start at="island" probability="0"/>
+
+<state id="non-island">
+<transition to="non-island" probability="0.95"/>
+<transition to="island" probability="0.05"/>
+<emissions>
+<symbol char="A" probability="0.25"/>
+<symbol char="C" probability="0.25"/>
+<symbol char="G" probability="0.25"/>
+<symbol char="T" probability="0.25"/>
+</emissions>
+</state>
+
+<state id="island">
+<transition to="island" probability="0.5"/>
+<transition to="non-island" probability="0.5"/>
+<emissions>
+<symbol char="A" probability="0.1"/>
+<symbol char="C" probability="0.4"/>
+<symbol char="G" probability="0.4"/>
+<symbol char="T" probability="0.1"/>
+</emissions>
+</state>
+
+<final at="island" probability="0"/>
+<final at="non-island" probability="1"/>
+
+</hmm>

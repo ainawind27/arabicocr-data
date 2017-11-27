@@ -1,0 +1,327 @@
+{
+  "segments" : [ {
+    "name" : "01-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "66676666566666665666666666666666666760",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "66676666566666665666666666666666666760",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "02-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "6566556555555555556565655654323223222232222222231212221476655666666788888881223433337777876654444444322222211223856665657666666667666676676780",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "6566556555555555556565655654323223222232222222231212221476655666666788888881223433337777876654444444322222211223856665657666666667666676676780",
+    "normalizedBodyChain" : [ 6, 5, 2, 2, 6, 3, 4, 2, 6, 6 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "03-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "4444444545455455456565444488881788888888888888888880",
+      "yPos" : 1
+    } ],
+    "bodyChain" : "4444444545455455456565444488881788888888888888888880",
+    "normalizedBodyChain" : [ 4, 4, 5, 4, 8, 8, 8, 8, 8, 8 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "03-01_steintiford.png",
+    "chains" : [ {
+      "chain" : "6660",
+      "yPos" : 0
+    }, {
+      "chain" : "6540",
+      "yPos" : 0
+    }, {
+      "chain" : "666566566666666665448817888888888880",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "666566566666666665448817888888888880",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 6, 4, 8, 8, 8, 8 ],
+    "dotPos" : 0,
+    "dotCount" : 2,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "03-02_steintiford.png",
+    "chains" : [ {
+      "chain" : "665565666566666666767767777787788788188888188180",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "665565666566666666767767777787788788188888188180",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 7, 7, 7, 8, 8, 8 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "04-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "66676666566666665666666666666666666760",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "66676666566666665666666666666666666760",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "05-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "66545555666788788878888777667566566656656666622222122122212213223334444344434432221111817880",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "66545555666788788878888777667566566656656666622222122122212213223334444344434432221111817880",
+    "normalizedBodyChain" : [ 6, 6, 8, 6, 6, 2, 2, 4, 2, 8 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "06-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "6667665666666656666666666566676666660",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "6667665666666656666666666566676666660",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "07-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "6665666666566666656666666566666656666678888880",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "6665666666566666656666666566666656666678888880",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 6, 6, 6, 6, 8, 8 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "07-01_steintiford.png",
+    "chains" : [ {
+      "chain" : "444333432233234335565656656678888818115545444443221221212117787677660",
+      "yPos" : 2
+    } ],
+    "bodyChain" : "444333432233234335565656656678888818115545444443221221212117787677660",
+    "normalizedBodyChain" : [ 4, 3, 3, 6, 8, 1, 4, 2, 7, 6 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "07-02_steintiford.png",
+    "chains" : [ {
+      "chain" : "60",
+      "yPos" : 0
+    }, {
+      "chain" : "60",
+      "yPos" : 0
+    }, {
+      "chain" : "6665665666666667888888888880",
+      "yPos" : 1
+    } ],
+    "bodyChain" : "6665665666666667888888888880",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 6, 8, 8, 8, 8, 8 ],
+    "dotPos" : 0,
+    "dotCount" : 2,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "07-03_steintiford.png",
+    "chains" : [ {
+      "chain" : "666566566666666667888888880",
+      "yPos" : 1
+    }, {
+      "chain" : "6540",
+      "yPos" : 2
+    } ],
+    "bodyChain" : "666566566666666667888888880",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 6, 6, 8, 8, 8, 8 ],
+    "dotPos" : 2,
+    "dotCount" : 1,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "07-04_steintiford.png",
+    "chains" : [ {
+      "chain" : "666665666666666656666666666566555444440",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "666665666666666656666666666566555444440",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 6, 6, 6, 6, 4, 4 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "08-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "56555556565666656666678888888888888811220",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "56555556565666656666678888888888888811220",
+    "normalizedBodyChain" : [ 5, 5, 6, 6, 8, 8, 8, 8, 1, 2 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "09-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "6666566666665666666566666665666666666666667777788788888888888881111112222222232223232220",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "6666566666665666666566666665666666666666667777788788888888888881111112222222232223232220",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 6, 8, 8, 1, 2, 2 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "10-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "665666566666666788888880",
+      "yPos" : 0
+    }, {
+      "chain" : "60",
+      "yPos" : 2
+    } ],
+    "bodyChain" : "665666566666666788888880",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 6, 6, 8, 8, 8, 8 ],
+    "dotPos" : 2,
+    "dotCount" : 1,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "10-01_steintiford.png",
+    "chains" : [ {
+      "chain" : "66656656666666666544881788888888881112220",
+      "yPos" : 0
+    }, {
+      "chain" : "40",
+      "yPos" : 2
+    }, {
+      "chain" : "6540",
+      "yPos" : 2
+    } ],
+    "bodyChain" : "66656656666666666544881788888888881112220",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 4, 8, 8, 8, 1, 2 ],
+    "dotPos" : 2,
+    "dotCount" : 2,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "10-02_steintiford.png",
+    "chains" : [ {
+      "chain" : "665560",
+      "yPos" : 0
+    }, {
+      "chain" : "6666566665666666666667676777878878888888888888111111222232222223223220",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "6666566665666666666667676777878878888888888888111111222232222223223220",
+    "normalizedBodyChain" : [ 6, 6, 6, 7, 8, 8, 1, 2, 2, 2 ],
+    "dotPos" : 0,
+    "dotCount" : 1,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "11-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "666666666656666666656666666666666660",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "666666666656666666656666666666666660",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "12-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "6656566676666666666676676777212121211211111181211111222665556666778888888123333337777776544444443322221112266655555654555555655656565630",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "6656566676666666666676676777212121211211111181211111222665556666778888888123333337777776544444443322221112266655555654555555655656565630",
+    "normalizedBodyChain" : [ 6, 6, 1, 1, 6, 3, 4, 2, 5, 5 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "13-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "56555556565666656666678888888888888811220",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "56555556565666656666678888888888888811220",
+    "normalizedBodyChain" : [ 5, 5, 6, 6, 8, 8, 8, 8, 1, 2 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "14-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "666566566666666667888888888880",
+      "yPos" : 0
+    }, {
+      "chain" : "40",
+      "yPos" : 2
+    }, {
+      "chain" : "6540",
+      "yPos" : 2
+    } ],
+    "bodyChain" : "666566566666666667888888888880",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 6, 6, 8, 8, 8, 8 ],
+    "dotPos" : 2,
+    "dotCount" : 2,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "14-01_steintiford.png",
+    "chains" : [ {
+      "chain" : "6676566666665666666666666656666555440",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "6676566666665666666666666656666555440",
+    "normalizedBodyChain" : [ 6, 6, 6, 6, 6, 6, 6, 6, 5, 4 ],
+    "dotPos" : 0,
+    "dotCount" : 0,
+    "label" : null,
+    "labelId" : 0
+  }, {
+    "name" : "15-00_steintiford.png",
+    "chains" : [ {
+      "chain" : "65660",
+      "yPos" : 0
+    }, {
+      "chain" : "666666566666666666667677777888788888888888881111121223222222322323220",
+      "yPos" : 0
+    } ],
+    "bodyChain" : "666666566666666666667677777888788888888888881111121223222222322323220",
+    "normalizedBodyChain" : [ 6, 6, 6, 7, 8, 8, 8, 1, 2, 2 ],
+    "dotPos" : 0,
+    "dotCount" : 1,
+    "label" : null,
+    "labelId" : 0
+  } ]
+}

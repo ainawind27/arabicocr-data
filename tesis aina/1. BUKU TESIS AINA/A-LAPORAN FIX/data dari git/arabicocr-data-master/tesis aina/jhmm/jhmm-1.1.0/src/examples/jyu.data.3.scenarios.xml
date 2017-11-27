@@ -1,0 +1,2060 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<training-scenarios>
+<training-scenario name='s1' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.01 0.99
+ 1.00 0.99 0.01
+</transitions>
+</training-scenario>
+<training-scenario name='s2' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.01 0.99
+ 1.00 0.90 0.10
+</transitions>
+</training-scenario>
+<training-scenario name='s3' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.01 0.99
+ 1.00 0.80 0.20
+</transitions>
+</training-scenario>
+<training-scenario name='s4' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.01 0.99
+ 1.00 0.70 0.30
+</transitions>
+</training-scenario>
+<training-scenario name='s5' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.01 0.99
+ 1.00 0.60 0.40
+</transitions>
+</training-scenario>
+<training-scenario name='s6' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.01 0.99
+ 1.00 0.50 0.50
+</transitions>
+</training-scenario>
+<training-scenario name='s7' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.01 0.99
+ 1.00 0.40 0.60
+</transitions>
+</training-scenario>
+<training-scenario name='s8' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.01 0.99
+ 1.00 0.30 0.70
+</transitions>
+</training-scenario>
+<training-scenario name='s9' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.01 0.99
+ 1.00 0.20 0.80
+</transitions>
+</training-scenario>
+<training-scenario name='s10' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.01 0.99
+ 1.00 0.10 0.90
+</transitions>
+</training-scenario>
+<training-scenario name='s11' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.01 0.99
+ 1.00 0.00 1.00
+</transitions>
+</training-scenario>
+<training-scenario name='s12' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.10 0.90
+ 1.00 0.99 0.01
+</transitions>
+</training-scenario>
+<training-scenario name='s13' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.10 0.90
+ 1.00 0.90 0.10
+</transitions>
+</training-scenario>
+<training-scenario name='s14' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.10 0.90
+ 1.00 0.80 0.20
+</transitions>
+</training-scenario>
+<training-scenario name='s15' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.10 0.90
+ 1.00 0.70 0.30
+</transitions>
+</training-scenario>
+<training-scenario name='s16' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.10 0.90
+ 1.00 0.60 0.40
+</transitions>
+</training-scenario>
+<training-scenario name='s17' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.10 0.90
+ 1.00 0.50 0.50
+</transitions>
+</training-scenario>
+<training-scenario name='s18' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.10 0.90
+ 1.00 0.40 0.60
+</transitions>
+</training-scenario>
+<training-scenario name='s19' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.10 0.90
+ 1.00 0.30 0.70
+</transitions>
+</training-scenario>
+<training-scenario name='s20' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.10 0.90
+ 1.00 0.20 0.80
+</transitions>
+</training-scenario>
+<training-scenario name='s21' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.10 0.90
+ 1.00 0.10 0.90
+</transitions>
+</training-scenario>
+<training-scenario name='s22' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.10 0.90
+ 1.00 0.00 1.00
+</transitions>
+</training-scenario>
+<training-scenario name='s23' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.20 0.80
+ 1.00 0.99 0.01
+</transitions>
+</training-scenario>
+<training-scenario name='s24' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.20 0.80
+ 1.00 0.90 0.10
+</transitions>
+</training-scenario>
+<training-scenario name='s25' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.20 0.80
+ 1.00 0.80 0.20
+</transitions>
+</training-scenario>
+<training-scenario name='s26' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.20 0.80
+ 1.00 0.70 0.30
+</transitions>
+</training-scenario>
+<training-scenario name='s27' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.20 0.80
+ 1.00 0.60 0.40
+</transitions>
+</training-scenario>
+<training-scenario name='s28' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.20 0.80
+ 1.00 0.50 0.50
+</transitions>
+</training-scenario>
+<training-scenario name='s29' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.20 0.80
+ 1.00 0.40 0.60
+</transitions>
+</training-scenario>
+<training-scenario name='s30' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.20 0.80
+ 1.00 0.30 0.70
+</transitions>
+</training-scenario>
+<training-scenario name='s31' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.20 0.80
+ 1.00 0.20 0.80
+</transitions>
+</training-scenario>
+<training-scenario name='s32' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.20 0.80
+ 1.00 0.10 0.90
+</transitions>
+</training-scenario>
+<training-scenario name='s33' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.20 0.80
+ 1.00 0.00 1.00
+</transitions>
+</training-scenario>
+<training-scenario name='s34' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.30 0.70
+ 1.00 0.99 0.01
+</transitions>
+</training-scenario>
+<training-scenario name='s35' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.30 0.70
+ 1.00 0.90 0.10
+</transitions>
+</training-scenario>
+<training-scenario name='s36' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.30 0.70
+ 1.00 0.80 0.20
+</transitions>
+</training-scenario>
+<training-scenario name='s37' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.30 0.70
+ 1.00 0.70 0.30
+</transitions>
+</training-scenario>
+<training-scenario name='s38' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.30 0.70
+ 1.00 0.60 0.40
+</transitions>
+</training-scenario>
+<training-scenario name='s39' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.30 0.70
+ 1.00 0.50 0.50
+</transitions>
+</training-scenario>
+<training-scenario name='s40' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.30 0.70
+ 1.00 0.40 0.60
+</transitions>
+</training-scenario>
+<training-scenario name='s41' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.30 0.70
+ 1.00 0.30 0.70
+</transitions>
+</training-scenario>
+<training-scenario name='s42' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.30 0.70
+ 1.00 0.20 0.80
+</transitions>
+</training-scenario>
+<training-scenario name='s43' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.30 0.70
+ 1.00 0.10 0.90
+</transitions>
+</training-scenario>
+<training-scenario name='s44' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.30 0.70
+ 1.00 0.00 1.00
+</transitions>
+</training-scenario>
+<training-scenario name='s45' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.40 0.60
+ 1.00 0.99 0.01
+</transitions>
+</training-scenario>
+<training-scenario name='s46' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.40 0.60
+ 1.00 0.90 0.10
+</transitions>
+</training-scenario>
+<training-scenario name='s47' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.40 0.60
+ 1.00 0.80 0.20
+</transitions>
+</training-scenario>
+<training-scenario name='s48' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.40 0.60
+ 1.00 0.70 0.30
+</transitions>
+</training-scenario>
+<training-scenario name='s49' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.40 0.60
+ 1.00 0.60 0.40
+</transitions>
+</training-scenario>
+<training-scenario name='s50' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.40 0.60
+ 1.00 0.50 0.50
+</transitions>
+</training-scenario>
+<training-scenario name='s51' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.40 0.60
+ 1.00 0.40 0.60
+</transitions>
+</training-scenario>
+<training-scenario name='s52' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.40 0.60
+ 1.00 0.30 0.70
+</transitions>
+</training-scenario>
+<training-scenario name='s53' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.40 0.60
+ 1.00 0.20 0.80
+</transitions>
+</training-scenario>
+<training-scenario name='s54' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.40 0.60
+ 1.00 0.10 0.90
+</transitions>
+</training-scenario>
+<training-scenario name='s55' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.40 0.60
+ 1.00 0.00 1.00
+</transitions>
+</training-scenario>
+<training-scenario name='s56' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.50 0.50
+ 1.00 0.99 0.01
+</transitions>
+</training-scenario>
+<training-scenario name='s57' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.50 0.50
+ 1.00 0.90 0.10
+</transitions>
+</training-scenario>
+<training-scenario name='s58' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.50 0.50
+ 1.00 0.80 0.20
+</transitions>
+</training-scenario>
+<training-scenario name='s59' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.50 0.50
+ 1.00 0.70 0.30
+</transitions>
+</training-scenario>
+<training-scenario name='s60' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.50 0.50
+ 1.00 0.60 0.40
+</transitions>
+</training-scenario>
+<training-scenario name='s61' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.50 0.50
+ 1.00 0.50 0.50
+</transitions>
+</training-scenario>
+<training-scenario name='s62' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.50 0.50
+ 1.00 0.40 0.60
+</transitions>
+</training-scenario>
+<training-scenario name='s63' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.50 0.50
+ 1.00 0.30 0.70
+</transitions>
+</training-scenario>
+<training-scenario name='s64' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.50 0.50
+ 1.00 0.20 0.80
+</transitions>
+</training-scenario>
+<training-scenario name='s65' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.50 0.50
+ 1.00 0.10 0.90
+</transitions>
+</training-scenario>
+<training-scenario name='s66' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.50 0.50
+ 1.00 0.00 1.00
+</transitions>
+</training-scenario>
+<training-scenario name='s67' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.60 0.40
+ 1.00 0.99 0.01
+</transitions>
+</training-scenario>
+<training-scenario name='s68' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.60 0.40
+ 1.00 0.90 0.10
+</transitions>
+</training-scenario>
+<training-scenario name='s69' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.60 0.40
+ 1.00 0.80 0.20
+</transitions>
+</training-scenario>
+<training-scenario name='s70' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.60 0.40
+ 1.00 0.70 0.30
+</transitions>
+</training-scenario>
+<training-scenario name='s71' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.60 0.40
+ 1.00 0.60 0.40
+</transitions>
+</training-scenario>
+<training-scenario name='s72' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.60 0.40
+ 1.00 0.50 0.50
+</transitions>
+</training-scenario>
+<training-scenario name='s73' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.60 0.40
+ 1.00 0.40 0.60
+</transitions>
+</training-scenario>
+<training-scenario name='s74' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.60 0.40
+ 1.00 0.30 0.70
+</transitions>
+</training-scenario>
+<training-scenario name='s75' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.60 0.40
+ 1.00 0.20 0.80
+</transitions>
+</training-scenario>
+<training-scenario name='s76' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.60 0.40
+ 1.00 0.10 0.90
+</transitions>
+</training-scenario>
+<training-scenario name='s77' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.60 0.40
+ 1.00 0.00 1.00
+</transitions>
+</training-scenario>
+<training-scenario name='s78' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.70 0.30
+ 1.00 0.99 0.01
+</transitions>
+</training-scenario>
+<training-scenario name='s79' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.70 0.30
+ 1.00 0.90 0.10
+</transitions>
+</training-scenario>
+<training-scenario name='s80' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.70 0.30
+ 1.00 0.80 0.20
+</transitions>
+</training-scenario>
+<training-scenario name='s81' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.70 0.30
+ 1.00 0.70 0.30
+</transitions>
+</training-scenario>
+<training-scenario name='s82' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.70 0.30
+ 1.00 0.60 0.40
+</transitions>
+</training-scenario>
+<training-scenario name='s83' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.70 0.30
+ 1.00 0.50 0.50
+</transitions>
+</training-scenario>
+<training-scenario name='s84' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.70 0.30
+ 1.00 0.40 0.60
+</transitions>
+</training-scenario>
+<training-scenario name='s85' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.70 0.30
+ 1.00 0.30 0.70
+</transitions>
+</training-scenario>
+<training-scenario name='s86' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.70 0.30
+ 1.00 0.20 0.80
+</transitions>
+</training-scenario>
+<training-scenario name='s87' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.70 0.30
+ 1.00 0.10 0.90
+</transitions>
+</training-scenario>
+<training-scenario name='s88' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.70 0.30
+ 1.00 0.00 1.00
+</transitions>
+</training-scenario>
+<training-scenario name='s89' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.80 0.20
+ 1.00 0.99 0.01
+</transitions>
+</training-scenario>
+<training-scenario name='s90' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.80 0.20
+ 1.00 0.90 0.10
+</transitions>
+</training-scenario>
+<training-scenario name='s91' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.80 0.20
+ 1.00 0.80 0.20
+</transitions>
+</training-scenario>
+<training-scenario name='s92' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.80 0.20
+ 1.00 0.70 0.30
+</transitions>
+</training-scenario>
+<training-scenario name='s93' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.80 0.20
+ 1.00 0.60 0.40
+</transitions>
+</training-scenario>
+<training-scenario name='s94' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.80 0.20
+ 1.00 0.50 0.50
+</transitions>
+</training-scenario>
+<training-scenario name='s95' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.80 0.20
+ 1.00 0.40 0.60
+</transitions>
+</training-scenario>
+<training-scenario name='s96' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.80 0.20
+ 1.00 0.30 0.70
+</transitions>
+</training-scenario>
+<training-scenario name='s97' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.80 0.20
+ 1.00 0.20 0.80
+</transitions>
+</training-scenario>
+<training-scenario name='s98' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.80 0.20
+ 1.00 0.10 0.90
+</transitions>
+</training-scenario>
+<training-scenario name='s99' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.80 0.20
+ 1.00 0.00 1.00
+</transitions>
+</training-scenario>
+<training-scenario name='s100' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.90 0.10
+ 1.00 0.99 0.01
+</transitions>
+</training-scenario>
+<training-scenario name='s101' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.90 0.10
+ 1.00 0.90 0.10
+</transitions>
+</training-scenario>
+<training-scenario name='s102' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.90 0.10
+ 1.00 0.80 0.20
+</transitions>
+</training-scenario>
+<training-scenario name='s103' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.90 0.10
+ 1.00 0.70 0.30
+</transitions>
+</training-scenario>
+<training-scenario name='s104' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.90 0.10
+ 1.00 0.60 0.40
+</transitions>
+</training-scenario>
+<training-scenario name='s105' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.90 0.10
+ 1.00 0.50 0.50
+</transitions>
+</training-scenario>
+<training-scenario name='s106' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.90 0.10
+ 1.00 0.40 0.60
+</transitions>
+</training-scenario>
+<training-scenario name='s107' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.90 0.10
+ 1.00 0.30 0.70
+</transitions>
+</training-scenario>
+<training-scenario name='s108' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.90 0.10
+ 1.00 0.20 0.80
+</transitions>
+</training-scenario>
+<training-scenario name='s109' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.90 0.10
+ 1.00 0.10 0.90
+</transitions>
+</training-scenario>
+<training-scenario name='s110' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 0.90 0.10
+ 1.00 0.00 1.00
+</transitions>
+</training-scenario>
+<training-scenario name='s111' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 1.00 0.00
+ 1.00 0.99 0.01
+</transitions>
+</training-scenario>
+<training-scenario name='s112' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 1.00 0.00
+ 1.00 0.90 0.10
+</transitions>
+</training-scenario>
+<training-scenario name='s113' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 1.00 0.00
+ 1.00 0.80 0.20
+</transitions>
+</training-scenario>
+<training-scenario name='s114' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 1.00 0.00
+ 1.00 0.70 0.30
+</transitions>
+</training-scenario>
+<training-scenario name='s115' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 1.00 0.00
+ 1.00 0.60 0.40
+</transitions>
+</training-scenario>
+<training-scenario name='s116' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 1.00 0.00
+ 1.00 0.50 0.50
+</transitions>
+</training-scenario>
+<training-scenario name='s117' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 1.00 0.00
+ 1.00 0.40 0.60
+</transitions>
+</training-scenario>
+<training-scenario name='s118' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 1.00 0.00
+ 1.00 0.30 0.70
+</transitions>
+</training-scenario>
+<training-scenario name='s119' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 1.00 0.00
+ 1.00 0.20 0.80
+</transitions>
+</training-scenario>
+<training-scenario name='s120' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 1.00 0.00
+ 1.00 0.10 0.90
+</transitions>
+</training-scenario>
+<training-scenario name='s121' error='1.0E-8'>
+<observation-data>
+000,2
+001,3
+010,5
+011,7
+100,11
+101,13
+110,17
+111,19
+</observation-data>
+<transitions>
+ 0.00 1.00 1.00
+ 1.00 1.00 0.00
+ 1.00 0.00 1.00
+</transitions>
+</training-scenario>
+</training-scenarios>

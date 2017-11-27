@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<!-- saved from url=(0072)http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/azar/skeleton.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+   <title> Skeletonization</title>
+   <meta name="GENERATOR" content="Mozilla/3.04Gold (X11; I; SunOS 4.1.4 sun4m) [Netscape]">
+</head>
+<body text="#000000" bgcolor="#FDF5E6" link="#0000EF" vlink="#51188E" alink="#800080" background="http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/azar/skeleton.html">
+
+<center><p><br>
+<br>
+<b><font color="#191970"><font size="+4"><i>Hilditch</i>'s<i> </i>Algorithm
+<br>
+for <br>
+Skeletonization</font> </font></b><br>
+<br>
+<br>
+<br>
+</p></center>
+
+<center><p><br>
+<img src="./Skeletonization_files/skeleton.gif" height="52" width="77"><img src="./Skeletonization_files/skeleton.gif" height="52" width="77"><img src="./Skeletonization_files/skeleton.gif" height="52" width="77"><br>
+
+</p><hr width="100%"><br>
+<br>
+<b><font size="-1">This project was done by <a href="http://www.cs.mcgill.ca/~dazar">Danielle
+Azar</a> for the <a href="http://www-cgrl.cs.mcgill.ca/~godfried/teaching.html">Pattern
+Recognition course</a> given by<br>
+<a href="http://www-cgrl.cs.mcgill.ca/~godfried">Prof. Godfried Toussaint</a>
+at <a href="http://www.mcgill.ca/">McGill University</a> in Montreal during
+winter term 1997</font></b><font size="-1">.</font><br>
+<br>
+<br>
+<p></p></center>
+
+<center><p>
+</p><hr width="100%"><br>
+<br>
+<br>
+<font size="+2"><a href="http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/azar/skeleton.html#define">Skeletonization </a>| <a href="http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/azar/skeleton.html#algorithm"><i>Hilditch's</i>
+Algorithm </a>| <a href="http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/azar/hild.html">Implementation of <i>Hilditch's</i>
+Algorithm</a> | <a href="http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/azar/reference.html">References</a> </font><br>
+<br>
+<br>
+<br>
+
+<hr width="100%"><p></p></center>
+
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<a name="define"></a></p>
+
+<center><p><b><font color="#191970"><font size="+3">Defining <i>Skeletonization</i></font></font></b></p></center>
+
+<p><br>
+<font size="+1"><i>Skeletonization</i> is the process of peeling off of a
+pattern as many pixels as possible without affecting the general shape
+of the pattern. In other words, after pixels have been peeled off, the
+pattern should still be recognized. The skeleton hence obtained must have
+the following properties: </font></p>
+
+<li><font size="+1">as thin as possible </font></li>
+
+<li><font size="+1">connected </font></li>
+
+<li><font size="+1">centered </font></li>
+
+<p><font size="+1">When these properties are satisfied, the alogorithm must
+stop.</font></p>
+
+<p><font size="+1">Following is a pattern and its skeleton. </font><br>
+<br>
+</p>
+
+<center><table>
+<tbody><tr>
+<td><img src="./Skeletonization_files/thick_t.gif" height="150" width="150"></td>
+
+<td><img src="./Skeletonization_files/thin_t.gif" height="150" width="150"></td>
+</tr>
+
+<tr>
+<td>
+<center><pre>T-Shaped Pattern</pre></center>
+</td>
+
+<td>
+<center><pre>The skeleton</pre></center>
+</td>
+</tr>
+</tbody></table></center>
+
+<p><br>
+<br>
+<font size="+1">Skeletonization is useful when we are interested not in the
+size of the pattern but rather in the relative position of the strokes
+in the pattern (<i>Character Recognition, X, Y Chromosome Recognition</i>)
+</font></p>
+
+<p><font size="+1">There are several algorithms which were designed for this
+aim. in this project we are concerned with one of them namely the <b><i>Hilditch's
+Algorithm</i></b>. </font></p>
+
+<div align="right"><p><br>
+<br>
+<a href="http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/azar/skeleton.html"><img src="file://u7/grad/dazar/public_html/skel/top1.gif" border="0" height="40" width="70"></a></p></div>
+
+<p>
+</p><hr><a name="algorithm"></a><p></p>
+
+<h1 align="CENTER"><font color="#000080"><font size="+2">Hilditch's Algorithm</font></font></h1>
+
+<h3><font color="#006688"><font size="+1">Defining Some Functions</font></font></h3>
+
+<p><font size="+1">Consider the following 8-neighborhood of a pixel p1</font></p>
+
+<p><img src="./Skeletonization_files/grid.gif" height="100" width="100"></p>
+
+<p><font size="+1">We want to decide whether to peel off p1 or keep it as
+part of the resulting skeleton. For this purpose we arrange the 8 neighbours
+of p1 in a clock-wise order and we define the two functions: </font></p>
+
+<p><font size="+1">B(p1) = number of non-zero neighbors of p1</font><br>
+</p>
+
+<pre><font size="+1">              and</font></pre>
+
+<p><br>
+<font size="+1">A(p1) = number of 0,1 patterns in the sequence p2,p3,p4,p5,p6,p7,p8,p9,p2
+</font></p>
+
+<pre><font size="+1"> <img src="./Skeletonization_files/grid2.gif" height="100" width="100" align="BOTTOM"> <i>B(p1)=2 , A(p1)=1</i>   <img src="./Skeletonization_files/grid3.gif" height="100" width="100" align="BOTTOM"> <i> B(p1)=2, A(p1)=2</i></font></pre>
+
+<center><p><img src="./Skeletonization_files/line1.gif" height="3" width="500"></p></center>
+
+<h3><font color="#006688"><font size="+1">The Algorithm</font></font></h3>
+
+<p><font size="+1">There are two versions for Hilditch's algorithm, one using
+a 4x4 window and the other one using a 3x3 window. Here we are concerned
+with the 3x3 window version. </font></p>
+
+<p><font size="+1">Hilditch's algorithm consists of performing multiple passes
+on the pattern and on each pass,the algorithm checks all the pixels and
+decide to change a pixel from black to white if it satisfies the following
+four conditions: </font></p>
+
+<ul>
+<li><font size="+1">2 &lt; = B(p1) &lt; = 6 </font></li>
+
+<li><font size="+1">A(p1)=1 </font></li>
+
+<li><font size="+1">p2.p4.p8=0 or A(p2)!= 1 </font></li>
+
+<li><font size="+1">p2.p4.p6=0 or A(p4)!= 1 <br>
+Stop when nothing changes (no more pixels can be removed) </font></li>
+</ul>
+
+<p><font size="+1">Let us view each of the above conditions separately. </font><br>
+</p>
+
+<p><font size="+1"><u><font color="#660088"><b>Condition 1 : </b><i>2 &lt;
+= B(p1) &lt; = 6 <br>
+</i></font></u>This condition combines two sub-conditions, first that the
+number of non-zero neighbors of p1 is greater than or equal to 2 and second
+that it be less than or equal to 6. The first condition ensures that no
+end-point pixeland no isolated one be deleted ( any pixel with 1 black
+neighbor is an end-point pixel), the second condition ensures that the
+pixel is a boundary pixel. </font><br>
+<br>
+<br>
+</p>
+
+<pre><img src="./Skeletonization_files/grid4.gif" height="100" width="100" align="BOTTOM"><font size="+1"><i>B(p1)=1</i>     <img src="./Skeletonization_files/grid8.gif" height="100" width="100" align="BOTTOM"> <i>B(P1)=0      <img src="./Skeletonization_files/grid5.gif" height="100" width="100" align="BOTTOM">B(p1)=7</i></font></pre>
+
+<p><br>
+<br>
+<font size="+1">As the picture makes it clear, if B(p1)=1, then p1 is a skeleton
+tip-point and should not be deleted. If B(p1)=0, then p1 is an isolated
+point and should also be kept (in case it is a noise, it is not the job
+of the skeletonization process to delete the pixel (it is the job of the
+noise removal algorithm). If B(p1)=7, p1 is no more on the boundary of
+the pattern and thus should not be a candidate for remaoval. </font></p>
+
+<p><br>
+<br>
+<u><font color="#660088"><font size="+1"><b>Condition 2 : </b><i>A(p1)=1
+</i></font></font></u></p>
+
+<p><font size="+1">This is a connectivity test. In fact, if you consider
+the below pictures where A(p1)&gt;1, you can see that by changing p1 to
+0 the pattern will become disconnected.</font></p>
+
+<p><img src="./Skeletonization_files/grid3.gif" height="100" width="100" align="BOTTOM"><font size="+1">
+<i>A(p1)=2</i> <img src="./Skeletonization_files/grid6.gif" height="100" width="100" align="BOTTOM">
+<i>A(p1)=2</i> <img src="./Skeletonization_files/grid7.gif" height="100" width="100" align="BOTTOM">
+<i>A(p1)=3</i></font></p>
+
+<p><br>
+<br>
+<font size="+1"><u><font color="#660088"><b>Condition 3 : </b><i>p2.p4.p8
+= 0 <b>or</b> A(p2)!=1</i></font></u> </font></p>
+
+<pre><font size="+1"> <img src="./Skeletonization_files/grid11.gif" height="130" width="100">                               <img src="./Skeletonization_files/grid12.gif" height="100" width="100">
+Here is an example where                 Here is one example where 
+A(p2) is not 1 .                         p2.p4.p8=0 .</font></pre>
+
+<center><pre><img src="./Skeletonization_files/grid16.gif" height="130" width="100"><font size="+1"> </font></pre></center>
+
+<center><pre><font size="+1">Here is one example where </font></pre></center>
+
+<center><pre><font size="+1">p2.p4.p8 is not 0 and A(p2)=1 . </font></pre></center>
+
+<p><br>
+<font size="+1">This condition ensures that 2-pixel wide vertical lines do
+not get completely eroded by the algorithm.</font></p>
+
+<p><br>
+<img src="./Skeletonization_files/grid22.gif" height="100" width="100"></p>
+
+<p><br>
+<br>
+<font size="+1"><u><font color="#660088"><b>Condition 4 : </b><i>p2.p4.p6
+= 0 <b>or</b> A(p4)!=1</i></font></u> </font></p>
+
+<pre><img src="./Skeletonization_files/grid14.gif" height="100" width="130"><font size="+1">                 <img src="./Skeletonization_files/grid13.gif" height="100" width="100"> 
+Here is one case              Here is one case</font></pre>
+
+<pre><font size="+1">where A(p4)!=1  .            where p2.p4.p6=0 .</font></pre>
+
+<p><br>
+<br>
+<br>
+<img src="./Skeletonization_files/grid15.gif" height="100" width="130"></p>
+
+<pre><font size="+1">Here is one case where </font></pre>
+
+<pre><font size="+1">p2.p4.p6!=0 and A(p4)=1.</font>
+</pre>
+
+<p><br>
+<br>
+<font size="+1">This condition ensures that 2-pixel wide horizontal lines
+do not get completely eroded by the algorithm. </font><br>
+</p>
+
+<center><p><img src="./Skeletonization_files/grid23.gif" height="100" width="100"><font size="+1"> </font></p></center>
+
+<p><img src="./Skeletonization_files/line1.gif" height="3" width="500"><font size="+1"> </font></p>
+
+<h3><font color="#006688"><font size="+1">Properties of Hilditch's Algorithm</font></font></h3>
+
+<p><font size="+1">It is a parallel-sequential algorithm. It is parallel
+because at one pass all pixels are checked at the same time and decisions
+are made whether to remove each of the checked pixels. It is sequential
+because this step just mentioned is repeated several times (until no more
+changes are done ).</font></p>
+
+<p><font size="+1">However, Hilditch's algorithm turned out to be not the
+perfect algorithm for skeletonization because it does not work on all patterns.
+In fact, there are patterns that are completely erased by the algorithm.
+</font></p>
+
+<pre><img src="./Skeletonization_files/grid25.gif" height="150" width="150"><font size="+1">              <img src="./Skeletonization_files/grid26.gif" height="150" width="150">
+    Patterns that Hilditch's alogrithm erases completely</font></pre>
+
+<div align="right"><p>
+</p><hr><br>
+<a href="http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/azar/skeleton.html"><img src="./Skeletonization_files/top1.gif" border="0" height="40" width="70"></a><br>
+<p></p></div>
+
+<center><table>
+<tbody><tr>
+<td><a href="http://www.cs.mcgill.ca/~dazar"><img src="./Skeletonization_files/home1.gif" border="0" height="40" width="40"></a><font size="+1">
+</font></td>
+
+<td><a href="http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/azar/skeleton.html"><img src="./Skeletonization_files/skeleton_small.gif" border="0" height="44" width="44"></a></td>
+
+<td><a href="http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/azar/hild.html"><img src="./Skeletonization_files/boycomputer.gif" border="0" height="48" width="48"></a></td>
+
+<td><a href="http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/azar/reference.html"><img src="./Skeletonization_files/library2.gif" border="0" height="40" width="40"></a></td>
+</tr>
+
+<tr valign="BOTTOM">
+<td><font size="-1">My Home Page </font></td>
+
+<td><font size="-1">Main Page </font></td>
+
+<td><font size="-1">Implementation </font></td>
+
+<td valign="BOTTOM"><font size="-1">References</font></td>
+</tr>
+</tbody></table></center>
+
+<div align="right"><p>
+</p><hr><p></p></div>
+
+
+
+</body></html>

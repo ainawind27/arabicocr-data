@@ -1,0 +1,320 @@
+#comment img {
+	border: 0px;
+	display: inline;
+}
+#comment .item {
+	padding: 5px;
+}
+#comment .hide {
+	color: #AAAAAA;
+}
+#comment #CommentMenu {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+#comment #CommentMenu .label {
+	padding-left: 5px;
+	color: white;
+}
+#comment #CommentMenu .buttons {
+}
+#comment #CommentMenu .button{
+	border-left: white solid 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+#comment #CommentMenu .button a{
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	background: url(../images/sectiontableheader.png);
+}
+#comment #CommentMenu .button a:hover {
+	background: #1E304E; 
+        background: #0077AA;
+}
+#comment .sectiontableheader {
+	height: 15px;
+	line-height: 15px;
+	color: white;
+	padding: 2px;
+	background: url(../images/sectiontableheader.png);
+}
+#comment .sectiontableentry1 {
+	background: #FBFBF5;
+	margin: 0px;
+	padding: 0px;
+}
+#comment .sectiontableentry2 {
+	background: #F5F5F5;
+	margin: 0px;
+	padding: 0px;
+}
+#comment .postcontainer{
+	margin-bottom: 5px;
+}
+#comment .post {
+	border-left: 1px #677791 solid;
+	border-right: 1px #677791 solid;
+	border-bottom: 1px #677791 solid;
+}
+#comment .postheader {
+
+	color: white; 
+	background: url(../images/head.png);
+	padding: 2px;
+}
+#comment .postheader td {
+	color: white;
+	height: 15px;
+	line-height: 15px;
+}
+#comment .postusername {
+	background-image: url(../images/user.png);
+	background-repeat: no-repeat;
+	background-position: 2px -2px;
+	padding-left: 21px;
+}
+#comment .postusername a {
+	color: white;
+}
+#comment .postusername a:hover {
+	text-decoration: underline;
+}
+#comment a.postwebsite:link,  #comment a.postwebsite:visited, #comment a.postwebsite:hover {
+	background: url(../images/html.png) no-repeat;
+	background-position: 2px -2px;
+	padding-left: 16px;
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+#comment .postnotify1 {
+	background-image: url(../images/mailgreen.jpg);
+	background-repeat: no-repeat;
+	padding-left: 16px;
+}
+
+#comment .postnotify0 {
+	background-image: url(../images/mailred.jpg);
+	background-repeat: no-repeat;
+	padding-left: 16px;
+}
+#comment .posttitle {
+	font-weight: bold;
+}
+#comment .postusertype {
+	text-transform: capitalize;
+}
+#comment .avatarcontainer {
+	background-image: url(../images/dotv.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+#comment .avatar {
+	border: 1px silver solid;
+	margin-right: 1px;
+}
+#comment .administrator {
+	font-weight: bold;
+	color: white;
+}
+#comment .postbody td {
+	color: #505367;
+	padding: 8px;
+	text-align: justify;
+	vertical-align: top;
+}
+#comment .sectiontableentry1 .postbody {
+	background: url(../images/body1.gif) repeat-x;
+}
+#comment .sectiontableentry2 .postbody {
+	background: url(../images/body2.gif) repeat-x;
+}
+#comment .createdate {
+	display: inline; /* AGE */
+	color: white;
+}
+#comment .postfooter {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-image: url(../images/dot.gif);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+}
+#comment .form {
+	width: 100%;
+	border: 1px #677791 solid;
+	padding: 1px;
+}
+#comment #CommentFormTitle {
+	color: white;
+}
+#comment .postbody table {
+	border: 0px;
+	padding: 2px;
+}
+#comment .quote {
+	text-align: center;
+	margin-bottom: 8px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+#comment .genmed {
+	color: #505367;
+	text-align: left;
+	padding-left: 8px;
+	padding-bottom: 1px;
+}
+#comment .quotebody {
+	color: #505367;
+	border: 1px #CCCCCC solid;
+	background: white;
+	text-align: justify;
+	padding: 8px;
+}
+#comment .code .genmed{
+	padding-left: 29px;
+}
+#comment .emoticoncontainer {
+	padding: 5px;
+}
+#comment .emoticonseparator {
+	padding: 3px;
+}
+#comment .emoticon {
+}
+#comment .buttoncontainer {
+	float: left;
+	padding: 8px 5px 5px 5px;
+}
+#comment .button {
+}
+#comment .inputbox {
+  margin: 0px;
+}
+#comment .select {
+	width: 82px;
+}
+#comment .onlyregistered {
+	padding: 5px;
+	text-align: center;
+	font-size: 1.1em;
+	color: red;
+	font-weight: bold;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	background: white;
+}
+#comment ul.voting {
+    list-style: none;
+    padding: 0;
+}
+#comment ul.voting li {
+    float: right;
+}
+#comment ul.voting a {
+    display: block;
+}
+#comment a.voting_yes:link, #comment a.voting_yes:visited {
+	color: #3C922F;
+	font-weight: normal;
+	background: url(../images/voting_yes.png) #EEF9EB no-repeat;
+	border: 1px outset #3C922F;
+	padding: 2px 4px 2px 20px;
+	white-space: nowrap;
+	float: left;
+	line-height: 10px;
+	text-decoration: none;
+}
+#comment a.voting_yes:hover {
+	color: #3C922F;
+	font-weight: normal;
+	background: url(../images/voting_yes.png) #FFFFFF no-repeat;
+	border: 1px outset #3C922F;
+	padding: 2px 4px 2px 20px;
+	white-space: nowrap;
+	float: left;
+	line-height: 10px;
+	text-decoration: none;
+}
+#comment a.voting_no:link, #comment a.voting_no:visited {
+	color: #AE3738;
+	font-weight: normal;
+	background: url(../images/voting_no.png) #F9EBEB no-repeat;
+	border: 1px outset #AE3738;
+	padding: 2px 4px 2px 20px;
+	white-space: nowrap;
+	float: left;
+	line-height: 10px;
+	text-decoration: none;
+}
+#comment a.voting_no:hover {
+	color: #AE3738;
+	font-weight: normal;
+	background: url(../images/voting_no.png) #FFFFFF no-repeat;
+	border: 1px outset #AE3738;
+	padding: 2px 4px 2px 20px;
+	white-space: nowrap;
+	float: left;
+	line-height: 10px;
+	text-decoration: none;
+}
+#comment .captchacontainer{
+	float: left;
+	padding: 5px;
+}
+#comment .captchainput{
+	float: left;
+	margin-top: 1px;
+}
+#comment #captcha{
+	border: 1px solid silver;
+	float: left;
+	margin-left: 5px;
+}
+#comment #busy{
+	padding-left: 5px;
+}
+#comment #SearchResults a:link, #comment #SearchResults a:visited {
+	color: #505367;
+}
+#comment #SearchResults a:hover {
+	color: black;
+}
+#comment #SearchResults span {
+	background: #ffc;
+	font-weight: bold;
+	border: 1px solid gray;
+}
+.comment_preview_container {
+	border: 1px #677791 solid;
+	margin: 8px;
+}
+.comment_preview {
+	padding: 4px;
+	text-align: left;
+	border: 1px #CCCCCC solid;
+	font-size: 0.9em;
+	background-color: #F5F5F5;
+	cursor: hand;
+}
+.comment_preview:hover {
+	background-color: white;
+}
+.comment_preview div {
+	color: #505367;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.comment_preview div:hover {
+	color: white;
+	background-color: #253F67;
+}
+#comment .josc_ads {
+    text-align: center;
+}
