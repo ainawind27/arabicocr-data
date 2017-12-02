@@ -1,6 +1,6 @@
 .
 Arabic OCR
 .
-By : Ainatul Radhiah
+Name : Ainatul Radhiah
 .
 email : ainawind27@gmail.com
